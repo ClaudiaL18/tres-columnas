@@ -1,6 +1,6 @@
 * {
     border: black solid 1px;
-    color: white;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 html {
@@ -20,6 +20,11 @@ body {
     display: flex;
 }
 
+article{
+    padding: 1rem;
+    margin: 3rem;
+}
+
 #sedan {
     background-color: hsl(31, 77%, 52%);
 }
@@ -34,6 +39,7 @@ body {
 .attribution {  
     font-size: 11px;
     text-align: center;
+    color: black !important;
 }
 
 .attribution a {
